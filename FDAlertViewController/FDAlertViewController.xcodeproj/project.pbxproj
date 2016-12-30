@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B05B339F1E15F36000D53999 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B339E1E15F36000D53999 /* main.m */; };
+		B05B33A21E15F36000D53999 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B33A11E15F36000D53999 /* AppDelegate.m */; };
+		B05B33A51E15F36000D53999 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B33A41E15F36000D53999 /* ViewController.m */; };
+		B05B33A81E15F36000D53999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B05B33A61E15F36000D53999 /* Main.storyboard */; };
+		B05B33AA1E15F36000D53999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B05B33A91E15F36000D53999 /* Assets.xcassets */; };
+		B05B33AD1E15F36000D53999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B05B33AB1E15F36000D53999 /* LaunchScreen.storyboard */; };
+		B05B33B81E15F36000D53999 /* FDAlertViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B33B71E15F36000D53999 /* FDAlertViewControllerTests.m */; };
+		B05B33C31E15F36000D53999 /* FDAlertViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B33C21E15F36000D53999 /* FDAlertViewControllerUITests.m */; };
+		B05B33D31E15F3B200D53999 /* FDAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B33D21E15F3B200D53999 /* FDAlertViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B05B33B41E15F36000D53999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B05B33921E15F36000D53999 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B05B33991E15F36000D53999;
+			remoteInfo = FDAlertViewController;
+		};
+		B05B33BF1E15F36000D53999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B05B33921E15F36000D53999 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B05B33991E15F36000D53999;
+			remoteInfo = FDAlertViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B05B339A1E15F36000D53999 /* FDAlertViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDAlertViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B05B339E1E15F36000D53999 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B05B33A01E15F36000D53999 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B05B33A11E15F36000D53999 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B05B33A31E15F36000D53999 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B05B33A41E15F36000D53999 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B05B33A71E15F36000D53999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B05B33A91E15F36000D53999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B05B33AC1E15F36000D53999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B05B33AE1E15F36000D53999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B05B33B31E15F36000D53999 /* FDAlertViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDAlertViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B05B33B71E15F36000D53999 /* FDAlertViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDAlertViewControllerTests.m; sourceTree = "<group>"; };
+		B05B33B91E15F36000D53999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B05B33BE1E15F36000D53999 /* FDAlertViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDAlertViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B05B33C21E15F36000D53999 /* FDAlertViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDAlertViewControllerUITests.m; sourceTree = "<group>"; };
+		B05B33C41E15F36000D53999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B05B33D11E15F3B200D53999 /* FDAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDAlertViewController.h; sourceTree = "<group>"; };
+		B05B33D21E15F3B200D53999 /* FDAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDAlertViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B05B33971E15F36000D53999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05B33B01E15F36000D53999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05B33BB1E15F36000D53999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B05B33911E15F36000D53999 = {
+			isa = PBXGroup;
+			children = (
+				B05B339C1E15F36000D53999 /* FDAlertViewController */,
+				B05B33B61E15F36000D53999 /* FDAlertViewControllerTests */,
+				B05B33C11E15F36000D53999 /* FDAlertViewControllerUITests */,
+				B05B339B1E15F36000D53999 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B05B339B1E15F36000D53999 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B05B339A1E15F36000D53999 /* FDAlertViewController.app */,
+				B05B33B31E15F36000D53999 /* FDAlertViewControllerTests.xctest */,
+				B05B33BE1E15F36000D53999 /* FDAlertViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B05B339C1E15F36000D53999 /* FDAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B05B33D01E15F37900D53999 /* source */,
+				B05B33A01E15F36000D53999 /* AppDelegate.h */,
+				B05B33A11E15F36000D53999 /* AppDelegate.m */,
+				B05B33A31E15F36000D53999 /* ViewController.h */,
+				B05B33A41E15F36000D53999 /* ViewController.m */,
+				B05B33A61E15F36000D53999 /* Main.storyboard */,
+				B05B33A91E15F36000D53999 /* Assets.xcassets */,
+				B05B33AB1E15F36000D53999 /* LaunchScreen.storyboard */,
+				B05B33AE1E15F36000D53999 /* Info.plist */,
+				B05B339D1E15F36000D53999 /* Supporting Files */,
+			);
+			path = FDAlertViewController;
+			sourceTree = "<group>";
+		};
+		B05B339D1E15F36000D53999 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B05B339E1E15F36000D53999 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B05B33B61E15F36000D53999 /* FDAlertViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B05B33B71E15F36000D53999 /* FDAlertViewControllerTests.m */,
+				B05B33B91E15F36000D53999 /* Info.plist */,
+			);
+			path = FDAlertViewControllerTests;
+			sourceTree = "<group>";
+		};
+		B05B33C11E15F36000D53999 /* FDAlertViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B05B33C21E15F36000D53999 /* FDAlertViewControllerUITests.m */,
+				B05B33C41E15F36000D53999 /* Info.plist */,
+			);
+			path = FDAlertViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		B05B33D01E15F37900D53999 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				B05B33D11E15F3B200D53999 /* FDAlertViewController.h */,
+				B05B33D21E15F3B200D53999 /* FDAlertViewController.m */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B05B33991E15F36000D53999 /* FDAlertViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B05B33C71E15F36100D53999 /* Build configuration list for PBXNativeTarget "FDAlertViewController" */;
+			buildPhases = (
+				B05B33961E15F36000D53999 /* Sources */,
+				B05B33971E15F36000D53999 /* Frameworks */,
+				B05B33981E15F36000D53999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDAlertViewController;
+			productName = FDAlertViewController;
+			productReference = B05B339A1E15F36000D53999 /* FDAlertViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B05B33B21E15F36000D53999 /* FDAlertViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B05B33CA1E15F36100D53999 /* Build configuration list for PBXNativeTarget "FDAlertViewControllerTests" */;
+			buildPhases = (
+				B05B33AF1E15F36000D53999 /* Sources */,
+				B05B33B01E15F36000D53999 /* Frameworks */,
+				B05B33B11E15F36000D53999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B05B33B51E15F36000D53999 /* PBXTargetDependency */,
+			);
+			name = FDAlertViewControllerTests;
+			productName = FDAlertViewControllerTests;
+			productReference = B05B33B31E15F36000D53999 /* FDAlertViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B05B33BD1E15F36000D53999 /* FDAlertViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B05B33CD1E15F36100D53999 /* Build configuration list for PBXNativeTarget "FDAlertViewControllerUITests" */;
+			buildPhases = (
+				B05B33BA1E15F36000D53999 /* Sources */,
+				B05B33BB1E15F36000D53999 /* Frameworks */,
+				B05B33BC1E15F36000D53999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B05B33C01E15F36000D53999 /* PBXTargetDependency */,
+			);
+			name = FDAlertViewControllerUITests;
+			productName = FDAlertViewControllerUITests;
+			productReference = B05B33BE1E15F36000D53999 /* FDAlertViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B05B33921E15F36000D53999 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FD;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = feyddy;
+				TargetAttributes = {
+					B05B33991E15F36000D53999 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B05B33B21E15F36000D53999 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B05B33991E15F36000D53999;
+					};
+					B05B33BD1E15F36000D53999 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B05B33991E15F36000D53999;
+					};
+				};
+			};
+			buildConfigurationList = B05B33951E15F36000D53999 /* Build configuration list for PBXProject "FDAlertViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B05B33911E15F36000D53999;
+			productRefGroup = B05B339B1E15F36000D53999 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B05B33991E15F36000D53999 /* FDAlertViewController */,
+				B05B33B21E15F36000D53999 /* FDAlertViewControllerTests */,
+				B05B33BD1E15F36000D53999 /* FDAlertViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B05B33981E15F36000D53999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05B33AD1E15F36000D53999 /* LaunchScreen.storyboard in Resources */,
+				B05B33AA1E15F36000D53999 /* Assets.xcassets in Resources */,
+				B05B33A81E15F36000D53999 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05B33B11E15F36000D53999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05B33BC1E15F36000D53999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B05B33961E15F36000D53999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05B33A51E15F36000D53999 /* ViewController.m in Sources */,
+				B05B33A21E15F36000D53999 /* AppDelegate.m in Sources */,
+				B05B339F1E15F36000D53999 /* main.m in Sources */,
+				B05B33D31E15F3B200D53999 /* FDAlertViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05B33AF1E15F36000D53999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05B33B81E15F36000D53999 /* FDAlertViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05B33BA1E15F36000D53999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05B33C31E15F36000D53999 /* FDAlertViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B05B33B51E15F36000D53999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B05B33991E15F36000D53999 /* FDAlertViewController */;
+			targetProxy = B05B33B41E15F36000D53999 /* PBXContainerItemProxy */;
+		};
+		B05B33C01E15F36000D53999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B05B33991E15F36000D53999 /* FDAlertViewController */;
+			targetProxy = B05B33BF1E15F36000D53999 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B05B33A61E15F36000D53999 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B05B33A71E15F36000D53999 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B05B33AB1E15F36000D53999 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B05B33AC1E15F36000D53999 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B05B33C51E15F36100D53999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B05B33C61E15F36100D53999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B05B33C81E15F36100D53999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FDAlertViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feyddy.FDAlertViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B05B33C91E15F36100D53999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FDAlertViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feyddy.FDAlertViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B05B33CB1E15F36100D53999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FDAlertViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feyddy.FDAlertViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDAlertViewController.app/FDAlertViewController";
+			};
+			name = Debug;
+		};
+		B05B33CC1E15F36100D53999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FDAlertViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feyddy.FDAlertViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDAlertViewController.app/FDAlertViewController";
+			};
+			name = Release;
+		};
+		B05B33CE1E15F36100D53999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FDAlertViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feyddy.FDAlertViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FDAlertViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B05B33CF1E15F36100D53999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FDAlertViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feyddy.FDAlertViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FDAlertViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B05B33951E15F36000D53999 /* Build configuration list for PBXProject "FDAlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B05B33C51E15F36100D53999 /* Debug */,
+				B05B33C61E15F36100D53999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B05B33C71E15F36100D53999 /* Build configuration list for PBXNativeTarget "FDAlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B05B33C81E15F36100D53999 /* Debug */,
+				B05B33C91E15F36100D53999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B05B33CA1E15F36100D53999 /* Build configuration list for PBXNativeTarget "FDAlertViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B05B33CB1E15F36100D53999 /* Debug */,
+				B05B33CC1E15F36100D53999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B05B33CD1E15F36100D53999 /* Build configuration list for PBXNativeTarget "FDAlertViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B05B33CE1E15F36100D53999 /* Debug */,
+				B05B33CF1E15F36100D53999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B05B33921E15F36000D53999 /* Project object */;
+}
